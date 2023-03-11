@@ -1,4 +1,6 @@
 {
+  "name": "blog-web",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -8,6 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.2.3"
+    "nuxt": "^3.2.3",
+    "vitest": "^0.29.2"
+  },
+  "dependencies": {
+    "vue": "^3.2.47",
+    "vuetify": "^3.1.8"
   }
 }
